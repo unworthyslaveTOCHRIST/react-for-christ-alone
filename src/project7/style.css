@@ -1,0 +1,87 @@
+/* ALL THANKS AND GLORY TO THE AND my ONLY GOD AND LORD JESUS CHRIST ALONE */
+*{
+    box-sizing: border-box
+}
+
+html{
+    height: 100%;
+    background-color: purple;
+}
+
+body{
+    min-height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+div.GTLJC_app{
+    width: auto;
+    /* outline: 2px solid blue; */
+    margin-right: auto;
+    margin-left: auto;
+
+    padding: 7vmin;
+    background-color: rgb(255,255,255);
+    border-radius: 15px;
+    box-shadow: rgb(255,255,255) 0px 0px 15px 1px
+}
+
+div.GTLJC_app div.GTLJC_form form{
+    /* outline: 2px solid red; */
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    font-size: 3vmin;
+    text-overflow: ellipsis;
+    
+}
+/* 
+div.GTLJC_app div.GTLJC_form > *{
+    outline: 2px solid green;
+} */
+
+ div.GTLJC_form input{
+    margin: 3vmin 0vmin;
+    padding: 2vmin;
+    font-size: 3vmin;
+    border-radius: 5px;
+    border: 1px solid black;
+    flex: 0 0 auto;
+    display: block ;
+}
+
+div.GTLJC_form input[type="checkbox"], div.GTLJC_form input[type="checkbox"] + label{
+    display: inline !important;
+    /* outline: 2px solid green; */
+    width: auto;
+    margin-right: 2vmin;
+    margin-top: 1vmin;
+    
+   
+}
+div.GTLJC_form input[type="checkbox"]{
+    vertical-align:baseline
+}
+
+div.GTLJC_form button {
+    padding: 2vmin;
+    width: 60%;
+    font-size: 2.5vmin;   
+    margin: 0vmin 0vmin 2vmin;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: purple;
+    color: white;
+    font-weight: 900;
+    border: none;
+    border-radius: 10px
+}
+
+div.GTLJC_form button:hover{
+    background-color: rgb(224, 158, 224);
+}

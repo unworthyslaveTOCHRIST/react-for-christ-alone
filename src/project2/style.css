@@ -1,0 +1,198 @@
+/* ALL THANKS AND GLORY TO THE AND my ONLY GOD AND LORD JESUS CHRIST ALONE */
+*{
+    box-sizing: border-box
+}
+html{
+    height: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10vmin;
+    background-color: rgb(250, 214, 172);
+}
+body{
+    min-width: 80%;
+    max-width: 80%;
+    overflow:auto;
+    flex: 0 0 auto;
+    min-height: 100%;
+    background-color: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    /* outline: 2px solid blue; */
+    padding: 2vmin;
+    font-family:'Segoe UI';
+    
+}
+
+body > *{
+    background-color: rgb(249, 249, 241);
+    width: 100%;
+}
+
+div.GTLJC_navbar{
+    width: 100%;
+    outline: 2px solid red;
+    flex: 1 1 auto;
+    display: flex;
+    flex-flow: row nowrap; 
+    box-shadow: 0px 20px 20px -20px rgb(100,100,100);
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
+    margin-bottom: 4vmin;
+}
+
+div.GTLJC_main{
+    width: 100%;
+    flex: 1 1 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    
+}
+
+div.GTLJC_main > div.GTLJC_img_stack{
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    height: 50vmin;
+    /* outline: 2px solid red; */
+    align-content: center;
+    
+}
+div.GTLJC_img_stack > img{
+    width: 10%;
+    display: block;
+    flex: 0 0 60px;
+    margin-right: 2vmin;
+    margin-bottom: 1vmin;
+    margin-top: 2vmin;
+    border-radius: 10px;
+   
+}
+div.GTLJC_img_stack img:nth-of-type(1){
+    height: 50vmin !important; 
+    margin-top: 7vmin;
+    flex: 0 0 90px;
+}
+
+div.GTLJC_img_stack img:nth-of-type(2){
+    height: 50vmin !important; 
+    margin-top: 2vmin;
+    flex: 0 0 50px;
+}
+
+div.GTLJC_img_stack img:nth-of-type(3){
+    height: 20vmin; 
+    margin-bottom: -2vmin
+    
+}
+
+div.GTLJC_img_stack img:nth-of-type(4){
+    height: 20vmin; 
+    margin-top: 5vmin;
+    background-color: rgb(119, 153, 183);
+}
+
+div.GTLJC_img_stack img:nth-of-type(5){
+    height: 20vmin; 
+}
+
+div.GTLJC_img_stack img:nth-of-type(6){
+    height: 20vmin; 
+}
+
+div.GTLJC_img_stack img:nth-of-type(7){
+    height: 20vmin; 
+    margin-bottom: -2vmin;
+}
+div.GTLJC_img_stack img:nth-of-type(8){
+    height: 20vmin; 
+    margin-top: 5vmin;
+}
+
+div.GTLJC_img_stack img:nth-of-type(9){
+    height: 20vmin; 
+    
+}
+
+
+div.GTLJC_main > div:nth-of-type(2){
+    width: 100%;
+    flex: 1 1 auto;
+    padding: 7vmin;
+    font-size: 4vmin;
+}
+
+div.GTLJC_main > div:nth-of-type(2) h3{
+    font-size: 6vmin;
+}
+
+div.GTLJC_main > div:nth-of-type(2) p{
+    width: 80%;
+    outline: 2px solid red;
+    margin-bottom: -10vmin;
+}
+
+div.GTLJC_card{
+    width: 50%;
+    height: auto;
+    flex: 1 1 auto;
+    margin: 7vmin;
+    outline: 2px solid blue;
+}
+div.GTLJC_card figure{
+    width: 100%;
+    height: auto;
+    margin: 2vmin auto;
+    padding: 4vmin;
+}
+div.GTLJC_card div.GTLJC_img{
+    height: 40vmin;
+    display: block;
+    width: 100%;
+    margin: 0vmin auto;
+    outline: 2px solid green;
+    background-image: url(./project2/GTLJC_images/the_cross.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    background-position: 0% 0%;
+    background-origin: 0% 0%;
+    background-clip: border-box;
+    filter: opacity(0.8);
+    border-radius: 10px;
+    padding-top: 3vmin;
+    padding-left: 3vmin;
+    
+
+}
+
+span.GTLJC_super_im{
+    background-color: rgb(149, 205, 222,0.6);
+    display: block;
+    width: 40%;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 3vmin;
+    line-height: 2em;
+    font-weight: 600;   
+}
+
+div.GTLJC_card figure figcaption{
+    letter-spacing: 0.2em;
+    word-spacing: 0.1em;
+}
+div.GTLJC_card figure figcaption p:nth-of-type(1){
+    font-weight: 800;
+}
+
+div.GTLJC_card figure figcaption img.GTLJC_icon{
+    width: 7%;
+    margin-top: 0vmin;
+    display: inline-block;
+    margin-right: 4vmin;
+    background-color: rgb(178, 178, 235);
+    border-radius: 5px;
+}

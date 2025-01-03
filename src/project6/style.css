@@ -1,0 +1,16 @@
+/* ALL THANKS AND GLORY TO THE AND my ONLY GOD AND LORD JESUS CHRIST ALONE */
+* {
+    box-sizing: border-box;
+}
+
+h1.GTLJC_box{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2vmin;
+    font-size: 5vmin;
+    /* width: auto; */
+    display: inline-block;
+    background-color: rgba(140, 23, 23, 0.2);
+    margin-right: 2vmin;
+
+}

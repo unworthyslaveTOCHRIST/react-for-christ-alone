@@ -1,0 +1,97 @@
+/* ALL THANKS AND GLORY TO THE AND my ONLY GOD AND LORD JESUS CHRIST ALONE */
+/*ALL THANKS AND GLORY TO THE AND my ONLY GOD AND LORD JESUS CHRIST ALONE */
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid blue;
+    padding: 2vmin;
+}
+
+div.GTLJC_header{
+    background-color: rgb(244, 79, 81);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+div.GTLJC_header h1{
+    color: white;
+    font-size: 6vmin;
+    margin-top: 9vmin;
+    margin-left: -1vmin;
+}
+
+div.GTLJC_Holy_container{
+    outline: 2px solid red;
+    margin: 10vmin;
+}
+
+div.GTLJC_je{
+    outline: 2px solid green;
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+div.GTLJC_je > *{
+    flex: 1 1 auto;
+}
+div.GTLJC_je img{
+    background-color: rgb(230,230,240);
+    border-radius: 15px;
+    margin: 5vmin;
+    box-shadow: rgb(100,100,100) 0px 0px 10px 5px;
+    
+}
+
+div.GTLJC_je div.GTLJC_info{
+    padding-bottom: 15vmin;
+    padding-top: 15vmin;
+    font-family:'Segoe UI';
+    /* font-size: 4vmin; */
+    text-align:justify;
+    padding-right: 5vmin;
+
+}
+div.GTLJC_je div.GTLJC_info p:nth-of-type(1){
+    font-size: 4vmin;
+    font-weight: 800;
+}
+
+div.GTLJC_je div.GTLJC_info p{
+    
+    color: rgb(65, 64, 64)
+}
+
+div.GTLJC_je div.GTLJC_info p span{
+    margin-right: 2vmin;
+    font-weight: 900;
+}
+
+div.GTLJC_je div.GTLJC_info a{
+    text-decoration: none;
+}
+
+div.GTLJC_je div.GTLJC_info a:hover{
+    color: red;
+    font-weight: 800;
+}
+
+* {
+    outline: none !important
+}
